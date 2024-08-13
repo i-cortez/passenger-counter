@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="counter-app">
+            <div id="title">
+                <h1>Passenger Counter</h1>
+            </div>
+            <div id="app">
+                <h2>Passenger count:</h2>
+                <h2 id="count-el">0</h2>
+                <div>
+                    <button id="increment-btn" onclick="incrementCount()">INCREMENT</button>
+                    <button id="save-btn" onclick="saveCount()">SAVE</button>
+                </div>
+                <button id="reset-btn" onclick="reset()">RESET</button>
+                <p id="curr-total">Current total: </p>
+                <p id="prev-total">Previous total: </p>
+                <script src="index.js"></script>
+            </div>
+        </div>
+    </body>
+</html>
